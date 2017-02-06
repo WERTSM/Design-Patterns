@@ -1,4 +1,7 @@
 package headfirst._2_observer.weatherobservable;
+/**
+ * Created by WERT on 06.02.2017.
+ */
 
 import java.util.Observable;
 import java.util.Observer;
@@ -16,7 +19,7 @@ public class HeatIndexDisplay implements Observer, DisplayElement {
             float t = weatherData.getTemperature();
             float rh = weatherData.getHumidity();
             heatIndex = (float)
-                        (   (16.923 + (0.185212 * t)) +
+                    ((16.923 + (0.185212 * t)) +
                             (5.37941 * rh) -
                             (0.100254 * t * rh) +
                             (0.00941695 * (t * t)) +
@@ -31,7 +34,7 @@ public class HeatIndexDisplay implements Observer, DisplayElement {
                             (0.0000000218429 * (t * t * t * rh * rh)) +
                             (0.000000000843296 * (t * t * rh * rh * rh)) -
                             (0.0000000000481975 * (t * t * t * rh * rh * rh))
-                        );
+                    );
             display();
         }
     }

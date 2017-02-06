@@ -1,4 +1,7 @@
 package headfirst._2_observer.swing;
+/**
+ * Created by WERT on 06.02.2017.
+ */
 
 import javax.swing.*;
 import java.awt.*;

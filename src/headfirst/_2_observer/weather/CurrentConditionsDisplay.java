@@ -1,5 +1,8 @@
 package headfirst._2_observer.weather;
 
+/**
+ * Created by WERT on 06.02.2017.
+ */
 public class CurrentConditionsDisplay implements Observer, DisplayElement {
     private float temperature;
     private float humidity;
