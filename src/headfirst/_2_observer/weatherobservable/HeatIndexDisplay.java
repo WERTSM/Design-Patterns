@@ -19,7 +19,8 @@ public class HeatIndexDisplay implements Observer, DisplayElement {
             float t = weatherData.getTemperature();
             float rh = weatherData.getHumidity();
             heatIndex = (float)
-                    ((16.923 + (0.185212 * t)) +
+                    (
+                            (16.923 + (0.185212 * t)) +
                             (5.37941 * rh) -
                             (0.100254 * t * rh) +
                             (0.00941695 * (t * t)) +
