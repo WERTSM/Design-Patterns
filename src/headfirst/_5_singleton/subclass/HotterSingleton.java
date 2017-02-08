@@ -1,4 +1,4 @@
-package headfirst.singleton.subclass;
+package headfirst._5_singleton.subclass;
 
 public class HotterSingleton extends Singleton {
 	// useful instance variables here

@@ -1,15 +1,13 @@
-package headfirst.singleton.classic;
-
-// NOTE: This is not thread safe!
+package headfirst._5_singleton.subclass;
 
 public class Singleton {
-	private static Singleton uniqueInstance;
+	protected static Singleton uniqueInstance;
  
 	// other useful instance variables here
  
-	private Singleton() {}
+	protected Singleton() {}
  
-	public static Singleton getInstance() {
+	public static synchronized Singleton getInstance() {
 		if (uniqueInstance == null) {
 			uniqueInstance = new Singleton();
 		}

@@ -1,4 +1,4 @@
-package headfirst.singleton.dcl;
+package headfirst._5_singleton.dcl;
 
 //
 // Danger!  This implementation of Singleton not

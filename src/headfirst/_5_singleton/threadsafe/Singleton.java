@@ -1,4 +1,4 @@
-package headfirst.singleton.threadsafe;
+package headfirst._5_singleton.threadsafe;
 
 public class Singleton {
 	private static Singleton uniqueInstance;

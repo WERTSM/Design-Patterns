@@ -1,4 +1,4 @@
-package headfirst.singleton.subclass;
+package headfirst._5_singleton.subclass;
 
 public class SingletonTestDrive {
 	public static void main(String[] args) {
