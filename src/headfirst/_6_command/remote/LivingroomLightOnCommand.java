@@ -1,13 +1,16 @@
 package headfirst._6_command.remote;
 
+/**
+ * Created by WERT on 11.02.2017.
+ */
 public class LivingroomLightOnCommand implements Command {
-	Light light;
+    Light light;
 
-	public LivingroomLightOnCommand(Light light) {
-		this.light = light;
-	}
+    public LivingroomLightOnCommand(Light light) {
+        this.light = light;
+    }
 
-	public void execute() {
-		light.on();
-	}
+    public void execute() {
+        light.on();
+    }
 }
