@@ -1,4 +1,4 @@
-package headfirst.templatemethod.barista;
+package headfirst._9_templatemethod.barista;
 
 public class Coffee extends CaffeineBeverage {
 	public void brew() {

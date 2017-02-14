@@ -1,4 +1,4 @@
-package headfirst.templatemethod.applet;
+package headfirst._9_templatemethod.applet;
 
 import java.applet.Applet;
 import java.awt.Graphics;

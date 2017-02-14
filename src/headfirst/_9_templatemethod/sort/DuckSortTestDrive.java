@@ -1,6 +1,5 @@
-package headfirst.templatemethod.sort;
+package headfirst._9_templatemethod.sort;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class DuckSortTestDrive {

@@ -1,4 +1,4 @@
-package headfirst.templatemethod.simplebarista;
+package headfirst._9_templatemethod.simplebarista;
 
 public class Tea {
  

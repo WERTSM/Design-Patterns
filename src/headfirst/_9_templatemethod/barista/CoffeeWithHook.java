@@ -1,4 +1,4 @@
-package headfirst.templatemethod.barista;
+package headfirst._9_templatemethod.barista;
 
 import java.io.*;
 

@@ -1,4 +1,4 @@
-package headfirst.templatemethod.sort;
+package headfirst._9_templatemethod.sort;
 
 public class Duck implements Comparable {
 	String name;
