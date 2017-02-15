@@ -1,10 +1,9 @@
-package headfirst.composite.menuiterator;
+package headfirst._11_composite.menu;
 
 import java.util.Iterator;
 import java.util.ArrayList;
 
 public class Menu extends MenuComponent {
- 
 	ArrayList menuComponents = new ArrayList();
 	String name;
 	String description;
@@ -33,12 +32,6 @@ public class Menu extends MenuComponent {
 	public String getDescription() {
 		return description;
 	}
-
-  
-	public Iterator createIterator() {
-		return new CompositeIterator(menuComponents.iterator());
-	}
- 
  
 	public void print() {
 		System.out.print("\n" + getName());

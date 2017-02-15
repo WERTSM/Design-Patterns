@@ -1,6 +1,4 @@
-package headfirst.composite.menu;
-
-import java.util.*;
+package headfirst._11_composite.menu;
 
 public abstract class MenuComponent {
    

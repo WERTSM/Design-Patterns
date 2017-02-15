@@ -1,4 +1,4 @@
-package headfirst.composite.menuiterator;
+package headfirst._11_composite.menuiterator;
 
 import java.util.Iterator;
   

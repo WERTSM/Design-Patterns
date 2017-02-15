@@ -1,7 +1,5 @@
-package headfirst.composite.menu;
+package headfirst._11_composite.menu;
 
-import java.util.Iterator;
-  
 public class Waitress {
 	MenuComponent allMenus;
  
