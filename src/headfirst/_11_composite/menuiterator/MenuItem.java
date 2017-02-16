@@ -6,7 +6,6 @@ package headfirst._11_composite.menuiterator;
 import java.util.Iterator;
 
 public class MenuItem extends MenuComponent {
-
     String name;
     String description;
     boolean vegetarian;
