@@ -1,4 +1,4 @@
-package headfirst._6_my_command_test.simpleremote;
+package headfirst._6_my_command.simpleremote;
 
 /**
  * Created by WORK_WERT on 11.02.2017.
