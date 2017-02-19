@@ -1,5 +1,7 @@
 package headfirst._13_proxy.gumball;
-
+/**
+ * Created by WERT on 19.02.2017.
+ */
 import java.rmi.*;
 import java.rmi.server.*;
  
