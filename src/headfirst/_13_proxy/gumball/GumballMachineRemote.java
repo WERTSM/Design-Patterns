@@ -1,5 +1,7 @@
 package headfirst._13_proxy.gumball;
-
+/**
+ * Created by WERT on 23.02.2017.
+ */
 import java.rmi.*;
  
 public interface GumballMachineRemote extends Remote {
