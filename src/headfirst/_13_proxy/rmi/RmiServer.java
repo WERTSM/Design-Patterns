@@ -7,9 +7,8 @@ import java.rmi.registry.Registry;
 import java.rmi.server.UnicastRemoteObject;
 
 /**
- *
  * -Djava.security.policy=.java.policy
- *
+ * <p>
  * Created by WERT on 27.02.2017.
  */
 public class RmiServer {
@@ -20,13 +19,13 @@ public class RmiServer {
         MyRemoteInterface myRemoteObject = new MyRemoteObject();
 
         try {
-            MyRemoteInterface stub = (MyRemoteInterface) UnicastRemoteObject.exportObject(myRemoteObject, 1094);
+            MyRemoteInterface stub = (MyRemoteInterface) UnicastRemoteObject.exportObject(myRemoteObject, 0);
             Registry registry = LocateRegistry.createRegistry(1094);
-            registry.bind("MyRemoteObject777774", stub);
+            registry.bind("MyRemoteObject", stub);
             System.out.println("bound MyRemoteObject");
 
         } catch (Throwable e) {
-            System.out.println("ОШИБКА БЛЯ\n" + e.getMessage());
+            System.out.println("ERROR:\n" + e.getMessage());
         }
     }
 }
@@ -37,7 +36,7 @@ interface MyRemoteInterface extends Remote {
 
 class MyRemoteObject implements MyRemoteInterface {
     @Override
-    public Integer getIncreasedNumber(Integer number)throws RemoteException{
+    public Integer getIncreasedNumber(Integer number) throws RemoteException {
         return number + 1;
     }
 }
