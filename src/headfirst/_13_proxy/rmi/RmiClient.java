@@ -14,7 +14,7 @@ public class RmiClient {
     public static void main(String[] args) throws RemoteException, NotBoundException {
         if (System.getSecurityManager() == null)
             System.setSecurityManager(new SecurityManager());
-        Registry registry = LocateRegistry.getRegistry("127.0.0.1", 1094);
+        Registry registry = LocateRegistry.getRegistry("127.0.0.1", 1099);
         MyRemoteInterface stub = (MyRemoteInterface) registry.lookup("MyRemoteObject");
         System.out.println("Было 1 стало после " + stub.getIncreasedNumber(1));
     }

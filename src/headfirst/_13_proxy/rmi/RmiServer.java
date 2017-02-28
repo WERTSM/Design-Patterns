@@ -19,8 +19,8 @@ public class RmiServer {
         MyRemoteInterface myRemoteObject = new MyRemoteObject();
 
         try {
-            MyRemoteInterface stub = (MyRemoteInterface) UnicastRemoteObject.exportObject(myRemoteObject, 0);
-            Registry registry = LocateRegistry.createRegistry(1094);
+            MyRemoteInterface stub = (MyRemoteInterface) UnicastRemoteObject.exportObject(myRemoteObject, 0);//0 - значит порт выберет автоматически
+            Registry registry = LocateRegistry.createRegistry(1099);            //Стандартный порт для регистраии
             registry.bind("MyRemoteObject", stub);
             System.out.println("bound MyRemoteObject");
 
