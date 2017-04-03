@@ -1,11 +1,15 @@
 package headfirst._13_proxy.gumball;
 /**
- * Created by WERT on 23.02.2017.
+ * Created by WERT on 03.04.2017.
  */
-import java.rmi.*;
- 
+
+import java.rmi.Remote;
+import java.rmi.RemoteException;
+
 public interface GumballMachineRemote extends Remote {
-	public int getCount() throws RemoteException;
-	public String getLocation() throws RemoteException;
-	public State getState() throws RemoteException;
+    public int getCount() throws RemoteException;
+
+    public String getLocation() throws RemoteException;
+
+    public State getState() throws RemoteException;
 }
