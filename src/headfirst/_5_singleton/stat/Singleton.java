@@ -1,5 +1,6 @@
 package headfirst._5_singleton.stat;
 /**
+ *
  * Created by WERT on 09.02.2017.
  */
 public class Singleton {
@@ -7,7 +8,7 @@ public class Singleton {
  
 	private Singleton() {}
  
-	public static Singleton getInstance() {
+	public static Singleton getInstance() {	
 		return uniqueInstance;
 	}
 }
